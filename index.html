@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case File #143</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <div id="slideshow-container" class="hidden">
+        <img id="slideshow-image" src="" alt="Our Memories">
+        <button id="prev-button" class="slideshow-nav">‹</button>
+        <button id="next-button" class="slideshow-nav">›</button>
+        <button id="close-slideshow-button" class="slideshow-nav">×</button>
+        <div id="slideshow-epilogue">A review of our case till date...</div>
+    </div>
+
+    <div id="letter-modal" class="hidden">
+        <div id="modal-content">
+            <button id="close-modal-button">×</button>
+            <pre id="letter-text"></pre>
+        </div>
+    </div>
+
+    <div id="case-file">
+        <h1>TOP SECRET // FORENSIC ANALYSIS</h1>
+        <p class="case-id"><h3>CASE FILE #143</h3></p>
+        <hr>
+        <h3>
+        <p><strong>INVESTIGATOR :</strong> [Insert name here]</p>
+        <p><strong>SUBJECT :</strong> The "Theft" of a Heart</p>
+        <p><strong>VICTIM :</strong> [Insert name here]</p>
+        <p><strong>SUMMARY :</strong> The victim's heart has been stolen. Your task is to analyze all available evidence to identify the primary suspect and unlock the final report.</p>
+        </h3>
+        <hr>
+        <h1>EVIDENCE LOCKER</h1>
+        <div class="evidence-grid">
+            <div class="evidence-item">
+                <h3>EVIDENCE A: Encrypted Message</h3>
+                <p class="code-block">[Insert an encrypted message here, you can use Base64 for instance]</p>
+            </div>
+            <div class="evidence-item">
+                <h3>EVIDENCE B: Witness Testimony</h3>
+                <p>"My entire logical framework crashed the moment I saw her smile. All system processes now point to her as the cause."</p>
+            </div>
+            <div class="evidence-item">
+                <h3>EVIDENCE C: Past Correspondence</h3>
+                <button class="letter-button" data-letter="letter1.txt">Review Letter</button>
+            </div>
+            <div class="evidence-item">
+                <h3>EVIDENCE D: Further Correspondence 1.0</h3>
+                <button class="letter-button" data-letter="letter2.txt">Review Letter</button>
+            </div>
+            <div class="evidence-item">
+                <h3>EVIDENCE E: The Final Key</h3>
+                <p>The password is a shared memory only the culprit would know.</p>
+            </div>
+        </div>
+        <hr>
+        <div id="hint-challenge">
+            <h1>HINT DECRYPTION REQUIRED</h1>
+            <h3>
+            <p>An emotional variable has been detected. Only the correct choice will decrypt the password hint.</p>
+            <p><strong>If a building were on fire, you would have to decide who you would save:</strong></p>
+            </h3>
+            <div class="choice-container">
+                <button id="choice-me" class="choice-button"><h3>Me</h3></button>
+                <button id="choice-momo" class="choice-button"><h3>A plate of Momos</h3></button>
+            </div>
+            <p id="password-hint" class="hidden"><strong>Hint Decrypted:</strong> It's the place we first met (one word, all lowercase). Also hidden in the Evidence-A </p>
+        </div>
+        <hr>
+        <h1>FINAL REPORT - ACCESS REQUIRED</h1>
+        <p><h3>Enter the password derived from the evidence to crack the case.</h3></p>
+        <div id="solver">
+            <input type="password" id="password-input" placeholder="Enter password here">
+            <button id="submit-button">Crack the Case</button>
+        </div>
+    </div>
+
+    <div id="love-letter" class="hidden">
+        <h1>Case Closed. The Culprit is You.</h1>
+        <p>Dear [Enter name here],</p>
+        <p>Enter your content here</p>
+        
+        <p>My analysis is complete, and my conclusion is simple: I love you. More than words, or even code, can express.</p>
+        <p>So, based on all the evidence, I have 1 final question to ask...</p>
+
+        <h2>Will you be my Girlfriend!?!?!?!?</h2>
+
+        <div class="final-answer">
+            <button id="yes-button">YES!</button>
+        </div>
+
+        <p class="signature">- [Your name]</p>
+
+        <button id="back-to-case-button">‹ Back to Case File</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
