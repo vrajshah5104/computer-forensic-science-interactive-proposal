@@ -1,6 +1,7 @@
-# 💌 Project Proposal: An Interactive Case File
+# 💌 Computer + Forensic Science Project Proposal: An Interactive Case File
 
-Welcome to the Interactive Case File! This is a single-page web application designed to present a message or proposal in a creative, engaging, and memorable way. Inspired by viral coding-related proposal reels, this project was created to showcase how a narrative-driven, interactive experience can be built with vanilla front-end technologies.
+Welcome to the Interactive Case File! This is a single-page web application designed to present a message or proposal in a creative, engaging, and memorable way.
+Inspired by viral coding-related proposal reels, this project was created to showcase how a narrative-driven, interactive experience can be built with vanilla front-end technologies.
 
 The application guides a user through a playful, forensic-themed "case file" which they must solve by examining evidence, cracking a password, and making choices. The solution unlocks a custom message, a celebratory animation, and a photo gallery, creating a complete narrative experience.
 
@@ -11,7 +12,7 @@ The application guides a user through a playful, forensic-themed "case file" whi
 
 This project is live and deployed on **Vercel**. You can view the interactive case file here:
 
-[**➡️ View Live Demo**](https://your-project-link.vercel.app)
+[**➡️ View Live Demo**](https://computer-forensic-science-interacti.vercel.app)
 
 ***
 ## ✨ Features
