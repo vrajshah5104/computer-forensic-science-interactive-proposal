@@ -66,7 +66,7 @@ Follow these steps to customize and run the project locally.
 
 1.  **Clone the Repository**:
     ```bash
-    git clone [https://github.com/vrajshah5104/computer-forensic-science-case.git](https://github.com/vrajshah5104/computer-forensic-science-case.git)
+    git clone https://github.com/vrajshah5104/computer-forensic-science-interactive-proposal.git
     cd computer-forensic-science-case
     ```
 2.  **Add Your Content**:
@@ -93,8 +93,8 @@ Follow these steps to customize and run the project locally.
 
 Feel free to connect if you have any questions or suggestions!
 
--   **GitHub**: [vrajshah5104](https://github.com/vrajshah5104)
--   **LinkedIn**: [vraj-nilay-shah](https://www.linkedin.com/in/vraj-nilay-shah)
+-   **GitHub**: https://github.com/vrajshah5104
+-   **LinkedIn**: https://www.linkedin.com/in/vraj-nilay-shah
 
 This project was a fun and heartfelt exploration of what can be built with core web technologies. Thanks for checking it out!
 
